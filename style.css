@@ -81,6 +81,18 @@ section {
     color: #333;
 }
 
+.profile-photo {
+    display: block;
+    margin: 20px auto; 
+    width: 150px; 
+    height: 150px; 
+    border-radius: 50%; 
+    border: 3px solid #333; 
+    object-fit: cover; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+
 /* Section Projets */
 .projects {
     background-color: #fff;
