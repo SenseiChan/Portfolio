@@ -92,6 +92,13 @@ section {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
 }
 
+.adiil{
+    display: block;
+    margin: 20px auto; 
+    width: 900px; 
+    height: 450px; 
+}
+
 /* Section Projets */
 .projects {
     background-color: #fff;
