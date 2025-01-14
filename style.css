@@ -92,7 +92,6 @@ section {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
 }
 
-
 /* Section Projets */
 .projects {
     background-color: #fff;
@@ -122,6 +121,67 @@ section {
 }
 
 .project-card a:hover {
+    text-decoration: underline;
+}
+
+/* Section Portfolio */
+.portfolio {
+    background-color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.portfolio h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.portfolio-category {
+    margin-bottom: 40px;
+}
+
+.portfolio-category h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #00BFFF;
+}
+
+.portfolio-items {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.portfolio-item {
+    background-color: #f9f9f9;
+    padding: 15px;
+    width: 250px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.portfolio-item h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.portfolio-item p {
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: #666;
+}
+
+.portfolio-item a {
+    color: #00BFFF;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.portfolio-item a:hover {
     text-decoration: underline;
 }
 
@@ -195,4 +255,33 @@ footer {
     color: white;
     text-align: center;
     padding: 10px 0;
+}
+
+/* Style des tableaux */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow-x: auto;
+    display: block;
+}
+
+table th, table td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+table th {
+    background-color: #00BFFF;
+    color: white;
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+    .portfolio-items {
+        flex-direction: column;
+    }
 }
